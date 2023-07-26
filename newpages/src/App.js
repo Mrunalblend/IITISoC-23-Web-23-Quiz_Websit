@@ -72,7 +72,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/loginp" element ={<LoginPage11 />} />
+      <Route path="/" element ={<LoginPage11 />} />
        <Route path="/prof" element={<ProfilePage/>}/>
       <Route path="/home" element={<Homepage />} />
 
@@ -88,7 +88,7 @@ function App() {
         path="/list-of-topics-page-for-maths"
         element={<LISTOFTOPICSPAGEFORMATHS />}
       />
-      <Route path="/" element={<Quiznew />} />
+      <Route path="/quiznew" element={<Quiznew />} />
       <Route path="/frame-6" element={<FrameComponent />} />
     </Routes>
 

@@ -9,6 +9,9 @@ class Score extends Component {
 		const { score, onNextQuestion } = this.props;
 
 		return (
+
+
+			
 			<div className='score'>
 				<h1>Results</h1>
 				
@@ -19,5 +22,7 @@ class Score extends Component {
 		);
 	}
 }
+
+
 
 export default Score;

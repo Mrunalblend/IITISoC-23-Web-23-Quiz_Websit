@@ -15,12 +15,12 @@
   bottom: 0;
   left: 0;
  
- background-image: url(/public/home-page@3x.png);
+ background-image: url(/public/log.png);
 }
 
 .component2,
 .logo {
-  position: absolute;
+  position: relative;
   top: 44.02%;
   left: 33.81%;
 }
@@ -62,6 +62,10 @@
   display: inline-block;
   width: 624px;
   height: 116px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size:100%;
+margin-bottom:20%;
+
 }
 .quizzyliciousWrapper {
   position: absolute;
@@ -73,7 +77,7 @@
   height: 230px;
   overflow: hidden;
   text-align: center;
-  font-size: var(--font-size-77xl);
+  font-size:500%;
   font-family: var(--font-josefin-sans);
 }
 .text {
@@ -150,8 +154,12 @@
   top: 550px;
   left: 300px;
 text-align: center;
-  font-size:var(--font-size-50xl) ;
-font-family: var(--font-Sofia);
+  font-weight: bolder;
+  font-size: 300%;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+padding: 10px;
+
+
 }
 
 .rectangleButton {
@@ -201,4 +209,9 @@ font-family: var(--font-Sofia);
   font-size: var(--font-size-5xl);
   color: var(--color-white);
   font-family: var(--font-inter);
+}
+
+
+.xd {
+
 }

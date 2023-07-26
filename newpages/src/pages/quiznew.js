@@ -1,5 +1,6 @@
 
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import  { useState, useEffect } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Question from "./question";
@@ -78,6 +79,19 @@ class Quiznew extends Component {
 		return (
 			<div className="default">
 				<h1 className="app-title">QUIZZYLICIOUS</h1>
+				
+				<div  className="mrunal">
+					<h2>
+					<Link to ="/home">
+						<button className="gg">
+							Home Page
+						</button>
+						</Link>
+						
+					</h2>
+				</div>
+				
+
 				<Interval/>
 				{!quizEnd ? (
 					

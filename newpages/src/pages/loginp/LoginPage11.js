@@ -15,9 +15,17 @@ const LoginPage11 = () =>
         About us 
       </Button>
      
-      <div className={styles.component2} > {/* logo position*/}
-        <div className={styles.component2Child} /> {/*logo dimensions*/}
-        <div className={styles.logo}></div> {/*logo img*/}
+      <div className={styles.component2} > 
+      
+      {/* logo position*/}
+        <div className={styles.component2Child}>  </div>
+
+     
+        
+        {/*logo dimensions*/}
+        <div className={styles.logo}>
+        <image src="\public\log.png"/>
+          </div> {/*logo img*/}
     <image src="\public\login-page--1@3x.png"/>
       </div>
       
@@ -38,7 +46,7 @@ const LoginPage11 = () =>
       <img className={styles.rectangleIcon} alt="" src="/rectangle-9.svg" />
       
       <div className={styles.quote}>
-        <span>Try  Test  Analyse  Learn</span></div>
+        <span>Try  Test    Analyse     Learn..</span></div>
       <Button className={styles.rectangleButton} variant="primary" >
         Are you an admin?Login
       </Button>
@@ -63,6 +71,11 @@ const LoginPage11 = () =>
       </Button>
       </Link>
       <div className={styles.loginPage1Child2} />
+
+<div className="xd">
+<image src="\public\log.png"/>
+</div>
+
     </div>
   );
 };
